@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,700&family=Open+Sans:wght@400;600;700&display=swap');
+
+/* ESTILOS GENERALES */
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+.imagen-main{
+    margin: 0 auto;
+}
+
+body{
+    background-color: #fffbf7;
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    color: #025157;
+}
+.contenedor{
+    max-width: 140rem;
+    width: 90%;
+    margin:0  auto;
+}
+/* COMPONENTES */
+.text-center{
+    text-align: center;
+}
+.mb-5{
+    margin-bottom: 5rem;
+}
+/* HEADER */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 1.8rem;
+}
+.header__navbar{
+    display: flex;
+    gap: 1.5rem;
+    color: #025157;
+}
+.action_sign-in{
+    color: #67b54b;
+    margin-right: 0.85em;
+}
+.action__btn{
+    background-color: #67b54b;
+    color: #fff;
+    padding:1em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+/* MAIN-TEXT-CONTENEDOR */
+.main-text-contenedor{
+    font-size: 1.7rem;
+}
+.other-font{
+    font-family: 'Alegreya', serif;
+}
+.title{
+    font-weight: 700;
+    font-size: 6rem;
+}
+.parrafo-abajo{
+    color: #46484c;
+}
+.promocion{
+    color: #8b8b8bcc;
+}
+.btn{
+    color: #fff;
+    background-color: #025157;
+}
