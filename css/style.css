@@ -51,8 +51,11 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    background-color: #fffbf7;
     font-size: 1.8rem;
+
+    position: sticky; 
+    top: 0;
 }
 .header__navbar{
     display: flex;
@@ -81,6 +84,7 @@ h1{
 .title{
     font-weight: 700;
     font-size: 6rem;
+    margin-bottom: 1.5rem;
 }
 .parrafo-abajo{
     color: #46484c;
