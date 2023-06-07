@@ -1,2 +1,4 @@
 - position sticky: es relativo a su padre y se convierte en fixed cuando traspasamos su elemento padre (ideal para barras de menu).
-- position fixed: relativo al viewport y en todo momemento mantiene su posicion, indepedientemente que hagamos scroll y se sal del flujo normal de la página. Lo usamos para anuncios o pop ups. 
+- position fixed: relativo al viewport y en todo momemento mantiene su posicion, indepedientemente que hagamos scroll y se sal del flujo normal de la página. Lo usamos para anuncios o pop ups.
+- podemos agregar un poster a una imagen utilizando la propiedad poster. 
+- Con la etiqueta source dentro de <video>, nos permite soportar diferentes formatos.  
