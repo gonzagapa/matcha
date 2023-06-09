@@ -8,22 +8,25 @@
     <title>Matcha</title>
 </head>
 <body>
-    <header class="header contenedor mb-5">
-        <a href="/" class="header__logo-contenedor">
-            <!-- Aqui puede ir texto o imagenes -->
-            <img class="header__logo" width="50px" height="50px" src="/assests/img/logo-satoyama.svg" alt="logo de la pagina">
-        </a>
-        <nav >
-            <ul class="header__navbar">
-                <li class="navbar__item"><a href="http://" target="_blank" rel="noopener noreferrer">Blog</a></li>
-                <li class="navbar__item"><a href="http://" target="_blank" rel="noopener noreferrer">Contacts</a></li>
-                <li class="navbar__item"><a href="http://" target="_blank" rel="noopener noreferrer">Help</a></li>
-            </ul>
-        </nav>
-        <div class="header__action">
-            <a href="/login.html" class="action_sign-in">Sign in</a>
-            <button class="action__btn">Start free trial</button>
+    <header class=" mb-5">
+        <div class="contenedor header__flex">
+            <a href="/" class="header__logo-contenedor">
+                <!-- Aqui puede ir texto o imagenes -->
+                <img class="header__logo" width="50px" height="50px" src="/assests/img/logo-satoyama.svg" alt="logo de la pagina">
+            </a>
+            <nav >
+                <ul class="header__navbar">
+                    <li class="navbar__item"><a href="http://" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                    <li class="navbar__item"><a href="http://" target="_blank" rel="noopener noreferrer">Contacts</a></li>
+                    <li class="navbar__item"><a href="http://" target="_blank" rel="noopener noreferrer">Help</a></li>
+                </ul>
+            </nav>
+            <div class="header__action">
+                <a href="/login.html" class="action_sign-in">Sign in</a>
+                <button class="action__btn">Start free trial</button>
+            </div>
         </div>
+        
     </header>
 
     <section class="main-text-contenedor contenedor text-center">
@@ -48,7 +51,7 @@
     <section class="video-contenedor">
         <div class="flex-contenedor">
             <div class="video-contenedor__video">
-                <video controls width=300 height=300 poster="https://imagendeperros.com/wp-content/uploads/2016/02/Perro-Tierno-Imagenes-Fondo-de-Pantalla.jpg" class="video">
+                <video controls  poster="https://imagendeperros.com/wp-content/uploads/2016/02/Perro-Tierno-Imagenes-Fondo-de-Pantalla.jpg" class="video">
                     <source src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4">
                 </video>
                 <img src="/assests/img/arrow.png" alt="See how it works" srcset="" class="video__imagen">
@@ -64,6 +67,33 @@
                 </form>
             </div>
         </div>
+    </section>
+
+    <section class="brands">
+        <div class="brands__grid">
+            <div class="brands__description">
+                <h2 class="brands__heading">Growing ecommerce brands rely on Matcha.</h2>
+                <p class="brands__text">
+                    Are you tired of wasting time publishing blog articles to only see a trickle of traffic and no impact on sales? Join hundreds of business owners and ecommerce marketers who rely on Matcha for quality content and consistent performance from their blogs.
+                </p>
+                <button class="btn btn--brands">Who uses Matcha?</button>
+                <div class="brands__brand-container">
+                    <img src="/assests/img/brands.png" alt="brands">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__description">
+                    <p class="card__text--primary">Everly</p>
+                    <p class="card__title">Early-Staged CPG Brand Increases Lead Conversion 20x Ecommerce renevue</p>
+        
+                    <p class="card__text card__text--secondary"><i class="shop-icon"></i>22% of monthly revenue influenced by content.</p>
+
+                    <button class="card__btn">See Case Study</button>
+                </div>
+                <div class="circule__absolute"><p>everly</p></div>
+            </div>
+        </div>
+      
     </section>
 </body>
 </html>

@@ -78,15 +78,17 @@ h2{
     margin-bottom: 5rem;
 }
 /* HEADER */
-.header{
+header{
+    background-color:#fffbf7;
+    position: sticky; 
+    top: 0;
+    z-index: 1;
+}
+.header__flex{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #fffbf7;
     font-size: 1.8rem;
-
-    position: sticky; 
-    top: 0;
 }
 .header__navbar{
     display: flex;
@@ -144,7 +146,7 @@ h2{
     margin: 0 auto;
 }
 .video{
-    flex: 1;
+    max-width: 500px;
 }
 .video__imagen{
     height: 70px;
@@ -153,4 +155,106 @@ h2{
 .video__descripcion{
     flex-basis: 50%;
     font-weight: 300;
+}
+/* BRANDS */
+.brands{
+    background-color: #a1d683;
+    font-weight: 300;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+    margin-bottom: 5rem;
+}
+.brands__grid{
+    display: grid;
+    grid-template-columns: minmax(320px,500px) minmax(300px, 350px);
+    justify-content: center;
+    gap: 3rem;
+    width: 90%;
+    margin: 0 auto;
+}
+.brands__brand-container{
+    max-width: 450px;
+}
+.brands__brand-container img{
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    
+}
+.brands__description > *{
+    margin-bottom: 2rem;
+}
+.btn--brands{
+    border-radius: 10px;
+}
+.card{
+    display: grid;
+    grid-template-rows: 300px 1fr;
+    background-image: url('/assests/img/persona.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:top center;
+    border-radius: 10px;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.card__description{
+    grid-row: 2;
+    background-color:#fff;
+    padding: 1.5rem;
+}
+.card__text--primary{
+    color: #025157;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.card__title{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+.card__text{
+    font-size: 1.6rem;
+}
+.card__text--secondary{
+    color: var(--color-terciario);
+    width: 80%;
+    margin-bottom:2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.shop-icon{
+    background-image: url('../assests/img/shopping-card.svg');
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 60px;
+    display: block;
+    margin-right: 10px;
+}
+.card__btn{
+    background-color: var(--color-primario);
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+.circule__absolute{
+    background-color: #f4d53f;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    color: cornflowerblue;
+    font-weight: 800;
+    padding: 1rem;
+    display: grid;
+    place-content: center;
+
+    position: absolute;
+    top: 250px;
+    left: 70%;
+}
+.circule__absolute p{
+    margin: 0;
 }
