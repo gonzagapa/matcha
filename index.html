@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,20 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>Matcha</title>
 </head>
+
 <body>
     <header class=" mb-5">
         <div class="contenedor header__flex">
             <a href="/" class="header__logo-contenedor">
                 <!-- Aqui puede ir texto o imagenes -->
-                <img class="header__logo" width="50px" height="50px" src="/assests/img/logo-satoyama.svg" alt="logo de la pagina">
+                <img class="header__logo" width="50px" height="50px" src="/assests/img/logo-satoyama.svg"
+                    alt="logo de la pagina">
             </a>
-            <nav >
+            <nav>
                 <ul class="header__navbar">
                     <li class="navbar__item"><a href="http://" target="_blank" rel="noopener noreferrer">Blog</a></li>
-                    <li class="navbar__item"><a href="http://" target="_blank" rel="noopener noreferrer">Contacts</a></li>
+                    <li class="navbar__item"><a href="http://" target="_blank" rel="noopener noreferrer">Contacts</a>
+                    </li>
                     <li class="navbar__item"><a href="http://" target="_blank" rel="noopener noreferrer">Help</a></li>
                 </ul>
             </nav>
@@ -26,55 +30,63 @@
                 <button class="action__btn">Start free trial</button>
             </div>
         </div>
-        
-    </header>
 
+    </header>
     <section class="main-text-contenedor contenedor text-center">
         <!-- Este contenido se muestra -->
         <h1 class="title other-font">Build your blog. Build your business</h1>
-        <p class="parrafo-abajo other-font">Instantly publish articles, drive more traffic, grow your email list, and see your
+        <p class="parrafo-abajo other-font">Instantly publish articles, drive more traffic, grow your email list, and
+            see your
             blog’s impact on sales.</p>
 
         <form action="" class="form form--main-text">
-            <input type="email" placeholder="enter your email"/>
-            <button class="btn">Try it now</button>
+            <input type="email" placeholder="enter your email" />
+            <button class="btn">Try it now<ion-icon name="arrow-forward-outline" class="icon-arrow icon-arrow--white"></ion-icon></button>
         </form>
 
         <p class="text--gray">Start publishing today with a <b>free 7-day trial.</b></p>
         <p class="text--gray"><b>No credit card<b> required.</p>
 
+        <div class="main-text__img-container">
+            <img src="/assests/img/capterra.png" alt="imagen de capterra" width="310px" height="250px" class="imagen-main">
+            <img src="/assests/img/imagen_principal.webp" alt="imagen" width="300px" height="250px" class="imagen-main">
+        </div>
         
-        <img src="/assests/img/capterra.png" alt="imagen de capterra" width="310px" height="250px" class="imagen-main">
-        <img src="/assests/img/imagen_principal.webp" alt="imagen" width="300px" height="250px" class="imagen-main">
     </section>
-
     <section class="video-contenedor">
         <div class="flex-contenedor">
             <div class="video-contenedor__video">
-                <video controls  poster="https://imagendeperros.com/wp-content/uploads/2016/02/Perro-Tierno-Imagenes-Fondo-de-Pantalla.jpg" class="video">
-                    <source src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4">
+                <video controls
+                    poster="https://imagendeperros.com/wp-content/uploads/2016/02/Perro-Tierno-Imagenes-Fondo-de-Pantalla.jpg"
+                    class="video">
+                    <source
+                        src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4">
                 </video>
                 <img src="/assests/img/arrow.png" alt="See how it works" srcset="" class="video__imagen">
             </div>
-            <div class="video__descripcion" >
+            <div class="video__descripcion">
                 <h2>Publish to your blog in minutes, not hours.</h2>
-                <p>Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don’t have hours to create content that may or may not work. With Matcha, instantly publish from our library of 10,000+ professionally written articles and build your email list faster with our powerful conversion tool.</p>
+                <p>Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don’t
+                    have hours to create content that may or may not work. With Matcha, instantly publish from our
+                    library of 10,000+ professionally written articles and build your email list faster with our
+                    powerful conversion tool.</p>
                 <p class="text--gray">Start publishing today</p>
 
                 <form action="" class="form">
-                    <input type="email" placeholder="enter email"/>
+                    <input type="email" placeholder="enter email" />
                     <button class="btn">Start my trial</button>
                 </form>
             </div>
         </div>
     </section>
-
     <section class="brands">
         <div class="brands__grid">
             <div class="brands__description">
                 <h2 class="brands__heading">Growing ecommerce brands rely on Matcha.</h2>
                 <p class="brands__text">
-                    Are you tired of wasting time publishing blog articles to only see a trickle of traffic and no impact on sales? Join hundreds of business owners and ecommerce marketers who rely on Matcha for quality content and consistent performance from their blogs.
+                    Are you tired of wasting time publishing blog articles to only see a trickle of traffic and no
+                    impact on sales? Join hundreds of business owners and ecommerce marketers who rely on Matcha for
+                    quality content and consistent performance from their blogs.
                 </p>
                 <button class="btn btn--brands">Who uses Matcha?</button>
                 <div class="brands__brand-container">
@@ -85,15 +97,74 @@
                 <div class="card__description">
                     <p class="card__text--primary">Everly</p>
                     <p class="card__title">Early-Staged CPG Brand Increases Lead Conversion 20x Ecommerce renevue</p>
-        
-                    <p class="card__text card__text--secondary"><i class="shop-icon"></i>22% of monthly revenue influenced by content.</p>
+
+                    <p class="card__text card__text--secondary"><i class="shop-icon"></i>22% of monthly revenue
+                        influenced by content.</p>
 
                     <button class="card__btn">See Case Study</button>
                 </div>
-                <div class="circule__absolute"><p>everly</p></div>
+                <div class="circule__absolute">
+                    <p>everly</p>
+                </div>
             </div>
         </div>
-      
+
     </section>
+    <section class="how-works">
+        <h2 class="how-works__heading">How does Matcha works?</h2>
+        <p class="how-works__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sint qui itaque porro
+            error minus sapiente maxime libero maiores sunt!</p>
+        <button class="btn btn--primary">Explore the Platform.</button>
+        <div class="how-works__grid">
+            <div class="feautes">
+                <div class="features__img">
+                    <img src="/assests/img/feature.svg" alt="caracteristica">
+                </div>
+                <div class="feature__description">
+                    <h3 class="feature__heading">Publish</h3>
+                    <p class="feature__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur
+                        architecto ad natus vel iusto ut excepturi reprehenderit consectetur illum autem.</p>
+                    <a href="" class="feature__link">Publish<ion-icon name="arrow-forward-outline" class="icon-arrow"></ion-icon></a>
+                </div>
+            </div>
+            <div class="feautes">
+                <div class="features__img">
+                    <img src="/assests/img/promote.svg" alt="caracteristica">
+                </div>
+                <div class="feature__description">
+                    <h3 class="feature__heading">Promote</h3>
+                    <p class="feature__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur
+                        architecto ad natus vel iusto ut excepturi reprehenderit consectetur illum autem.</p>
+                    <a href="" class="feature__link">Promote<ion-icon name="arrow-forward-outline" class="icon-arrow"></ion-icon></a>
+                </div>
+            </div>
+            <div class="feautes">
+                <div class="features__img">
+                    <img src="/assests/img/capture.svg" alt="caracteristica">
+                </div>
+                <div class="feature__description">
+                    <h3 class="feature__heading">Capture</h3>
+                    <p class="feature__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur
+                        architecto ad natus vel iusto ut excepturi reprehenderit consectetur illum autem.</p>
+                    <a href="" class="feature__link">Capture<ion-icon name="arrow-forward-outline" class="icon-arrow"></ion-icon></a>
+                </div>
+            </div>
+            <div class="feautes">
+                <div class="features__img">
+                    <img src="/assests/img/measure.svg" alt="caracteristica">
+                </div>
+                <div class="feature__description">
+                    <h3 class="feature__heading">Measure</h3>
+                    <p class="feature__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur
+                        architecto ad natus vel iusto ut excepturi reprehenderit consectetur illum autem.</p>
+                    <a href="" class="feature__link">Measure<ion-icon name="arrow-forward-outline" class="icon-arrow"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
