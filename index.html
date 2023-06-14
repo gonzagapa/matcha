@@ -47,10 +47,10 @@
         <p class="text--gray">Start publishing today with a <b>free 7-day trial.</b></p>
         <p class="text--gray"><b>No credit card<b> required.</p>
 
-        <div class="main-text__img-container">
+        <!-- <div class="main-text__img-container">
             <img src="/assests/img/capterra.png" alt="imagen de capterra" width="310px" height="250px" class="imagen-main">
             <img src="/assests/img/imagen_principal.webp" alt="imagen" width="300px" height="250px" class="imagen-main">
-        </div>
+        </div> -->
         
     </section>
     <section class="video-contenedor">
@@ -163,8 +163,91 @@
         </div>
     </section>
 
+    <section class="caract">
+        <div class="caract__grid">
+            <article class="caract__card">
+                <div class="caract__desc">
+                    <h2 class="caract__heading">Fill your blog with engaging articles</h2>
+                    <p class="caract__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, eaque!</p>
+                    <a href="" class="feature__link feature__link--bold">Publish instantly<ion-icon name="arrow-forward-outline" class="icon-arrow"></ion-icon></a>
+                </div>
+                <div class="caract__img">
+                    <img src="/assests/img/caract_imagen.png" alt="">
+                </div>
+            </article>
+            <article class="caract__card">
+                <div class="caract__desc">
+                    <h2 class="caract__heading">Atrract and engage more website visitors</h2>
+                    <p class="caract__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, eaque!</p>
+                    <a href="" class="feature__link feature__link--bold">Get more site traffic<ion-icon name="arrow-forward-outline" class="icon-arrow"></ion-icon></a>
+                </div>
+                <div class="caract__img">
+                    <img src="/assests/img/caract_imagen.png" alt="">
+                </div>
+            </article>
+            <article class="caract__card">
+                <div class="caract__desc">
+                    <h2 class="caract__heading">Capture more emails with locked content</h2>
+                    <p class="caract__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, eaque!</p>
+                    <a href="" class="feature__link feature__link--bold">Grow your email list faster<ion-icon name="arrow-forward-outline" class="icon-arrow"></ion-icon></a>
+                </div>
+                <div class="caract__img">
+                    <img src="/assests/img/caract_imagen.png" alt="">
+                </div>
+            </article>
+            <article class="caract__card">
+                <div class="caract__desc">
+                    <h2 class="caract__heading">Optimize your blog's performance</h2>
+                    <p class="caract__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, eaque!</p>
+                    <a href="" class="feature__link feature__link--bold">See conten's ROI<ion-icon name="arrow-forward-outline" class="icon-arrow"></ion-icon></a>
+                </div>
+                <div class="caract__img">
+                    <img src="/assests/img/caract_imagen.png" alt="">
+                </div>
+            </article>
+        </div>
+    </section>
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 </body>
 
 </html>
