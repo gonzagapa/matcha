@@ -303,7 +303,8 @@ header{
 
     width: 80%;
     margin: 0 auto;
-}   
+} 
+
 .feautes{
     padding-top: 1rem;
     background-color: #fff;
@@ -363,6 +364,14 @@ header{
     gap: 2rem;
     place-content: center;
 }
+
+@media (max-width:768px){
+    .caract__grid{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .caract__card{
     background-color:var(--blanco);
     border-radius: 5px;
@@ -371,6 +380,16 @@ header{
     display: flex;
     align-items: center;
     gap: 1.5rem;
+
+    min-width: 300px;
+}
+
+@media (max-width:768px){
+    .caract__card{
+        flex-direction: column;
+        padding: 1em;
+        
+    }
 }
 .caract__desc{
     max-width: 40ch;
@@ -393,4 +412,10 @@ header{
 }
 .feature__link--bold{
     font-weight: 600;
+}
+@media (max-width:768px){
+    .feature__link{
+        display: block;
+        text-align: center;
+    }
 }
