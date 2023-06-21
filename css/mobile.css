@@ -1,8 +1,5 @@
 @media (max-width:768px){
     /* HEADER */
-    nav,.header__action{
-        visibility: hidden;
-    }
     h1{
         font-size: var(--f-large);
     }
