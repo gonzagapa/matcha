@@ -6,7 +6,7 @@
 
     &__contenedor{
         min-width: 18.75rem;
-        margin: 10rem 0;
+        margin: 10rem 20px;
         padding: 3rem;
         background-color:$color-primario;
         border-radius: 10px;
@@ -45,5 +45,14 @@
     .btn--green{
         background-color: $color-secundario;
         color: $blanco;
+
+        &:hover{
+            background-color: #a1d683;
+        }
+    }
+    @media (max-width:880px){
+        &__contenedor{
+            flex-direction: column;
+        }
     }
 }

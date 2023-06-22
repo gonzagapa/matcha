@@ -9,9 +9,16 @@
     .title{
         font-size: var(--f-small);
     }
+    input[type=email]{
+        border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+    .btn{
+        border-radius: 10px;
+    }
     /* SECCION-MAIN-TEXT */
     .form{
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
     }
     /* SECCION VIDEO */
